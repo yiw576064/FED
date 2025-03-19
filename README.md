@@ -19,7 +19,7 @@ MMSD dataset--[link](https://github.com/headacheboy/data-of-multimodal-sarcasm-d
 
 MMSD2.0 dataset--[link](https://github.com/JoeYing1019/MMSD2.0)
 ## Pretrained model
-Download the pretrained model roberta-base and its associated files from [roberta-base](https://huggingface.co/roberta-base/), and download the pretrained model clip-vit-base-patch32 and its associated files from [vit](https://huggingface.co/openai/clip-vit-base-patch32/).
+Download the pretrained model roberta-base and its associated files from [roberta-base](https://huggingface.co/roberta-base/), download the pretrained model bert-base-uncased and its associated files from [bert](https://huggingface.co/google-bert/bert-base-uncased), and download the pretrained model clip-vit-base-patch32 and its associated files from [vit](https://huggingface.co/openai/clip-vit-base-patch32/).
 
 # Training
 To train FED, the simply run the following command.
