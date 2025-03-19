@@ -21,7 +21,11 @@ MMSD2.0 dataset--[link](https://github.com/JoeYing1019/MMSD2.0)
 ## Pretrained model
 Download the pretrained model roberta-base and its associated files from [roberta-base](https://huggingface.co/roberta-base/), and download the pretrained model clip-vit-base-patch32 and its associated files from [vit](https://huggingface.co/openai/clip-vit-base-patch32/).
 
-# Model
+# Training
+To train FED, the simply run the following command.
+```bash
+CUDA_VISIBLE_DEVICES=0 python train.py {path of the parameter configuration file} \
+```
 
 
 
